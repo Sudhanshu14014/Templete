@@ -1,0 +1,423 @@
+#root {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-icon {
+    width: 1.5rem;
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.main-div {
+    background-color: #c8e7df;
+}
+
+.main-display {
+    color: black;
+    background-color: #fefefe;
+    max-width: 50rem;
+    display: flex;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.text-content {
+    padding: 2rem;
+    max-width: 50%;
+}
+
+.about-us {
+    color: #a6a6a6;
+    letter-spacing: 0.5rem;
+}
+
+.read-btn {
+    background-color: #2e9278;
+    letter-spacing: 0.3rem;
+}
+
+.chat-img {
+    width: 15rem;
+}
+
+.sec-content {
+    display: block;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 35rem;
+    padding-bottom: 5rem;
+}
+
+.sec-title {
+    color: #2e9278;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+.sec-content {
+    color: black;
+}
+
+.sec-content > p {
+    line-height: 2rem;
+}
+
+.text-title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+.text-list {
+    padding: 0.5rem;
+    list-style: none;
+}
+.text-list > li {
+    padding: 0.3rem;
+}
+
+.text-list li::before {
+    content: url("./assets/arrow1.png");
+    padding: 10rem 1rem 0 0;
+}
+
+.secComp {
+    background-color: #fefefe;
+    padding: 1rem 7rem;
+}
+
+.sec-main-comp {
+    max-width: 35rem;
+    padding: 0 7rem;
+}
+
+.sec-main-title {
+    color: #2e9278;
+    padding: 0;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    width: 25rem;
+    line-height: 3rem;
+}
+.sec-main-desc {
+    line-height: 2rem;
+}
+
+.sec-item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-item {
+    max-width: 20rem;
+    margin: 3rem;
+}
+
+.sec-item-img {
+    width: 4rem;
+}
+
+.sec-item-bg {
+    position: relative;
+    color: #2e9278;
+    opacity: 0.3;
+    font-weight: 800;
+    font-size: 6rem;
+    z-index: 1;
+    top: 8rem;
+    right: 2rem;
+}
+.sec-item-desc {
+    line-height: 2rem;
+}
+
+.third-comp {
+    text-align: center;
+    background-color: #c8e7df;
+    padding: 2rem;
+}
+
+.third-subtitle {
+    color: #2e9278;
+    letter-spacing: 0.3rem;
+}
+
+.third-main-title,
+.third-item-title {
+    color: #2e9278;
+}
+
+.third-item-list {
+    display: flex;
+    justify-content: center;
+}
+
+.third-item {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    max-width: 20rem;
+    padding: 2rem;
+}
+
+.third-item-img {
+    height: 15rem;
+}
+
+.third-more-btn {
+    padding: 0.5rem 3rem;
+    letter-spacing: 0.2rem;
+    background-color: #2e9278;
+}
+
+.fourth-comp {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.fourth-first,
+.fourth-sec {
+    max-width: 28rem;
+}
+
+.fourth-first {
+    background-color: #faecdf;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.fourth-sec {
+    background-color: #d4ede7;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.fourth-first > h1,
+.fourth-sec > h1 {
+    line-height: 2.5rem;
+}
+
+.fourth-first-subtitle {
+    color: #da9b53;
+}
+
+.fourth-sec-subtitle {
+    color: #2e9278;
+}
+
+.fourth-sec-btn {
+    background-color: transparent;
+    border: none;
+    color: #2e9278;
+    font-weight: 700;
+    padding: 0%;
+    padding-bottom: 1rem;
+}
+
+.fourth-first-btn {
+    background-color: transparent;
+    border: none;
+    color: #da9b53;
+    font-weight: 700;
+    padding: 0%;
+    padding-bottom: 1rem;
+}
+
+.aboutUs {
+    background-color: #fbf1e8;
+    padding: 2rem;
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 9rem;
+}
+
+.aboutUs-title {
+    max-width: 10rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.aboutUs-div {
+    max-width: 60rem;
+    padding: 2rem;
+}
+
+.aboutUs-para {
+    line-height: 2rem;
+}
+
+.aboutUs-sec {
+    padding: 2rem;
+}
+
+.aboutUs-caption {
+    color: #2e9278;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.aboutUs-img {
+    width: 10rem;
+}
+
+.aboutUs-btn {
+    background-color: #2e9278;
+    padding: 0.5rem 3rem;
+}
+
+.contact-div {
+    background-color: #c8e7df;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.contact-title,
+.contact-details-div > h4 {
+    color: #2e9278;
+    font-weight: 700;
+}
+
+.all-contact {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.contact-desc-div {
+    padding: 2rem;
+    max-width: 20rem;
+}
+
+.contact-details-div {
+    max-width: 15rem;
+    padding: 2rem;
+}
+
+.contact-notice {
+    font-weight: 800;
+}
+
+.contact-form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact-input {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 20rem;
+}
+
+.contact-textarea {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.contact-submit {
+    background-color: #2e9278;
+    letter-spacing: 0.2rem;
+}
+
+.contact-btn {
+    background-color: #2e9278;
+    text-decoration: none;
+    border-radius: 5rem;
+    margin: 0.3rem;
+    padding: 1rem;
+    max-width: 3rem;
+    font-size: 0.7rem;
+}
+
+.fa {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.downloadBox {
+    position: relative;
+    background-color: #fefefe;
+    border-radius: 1rem;
+    display: flex;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 10rem;
+}
+
+.download-btn-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-btn {
+    border-radius: 0.5rem;
+    background-color: #2e9278;
+    margin: 0 1rem;
+    padding: 1rem 2rem;
+}
+
+.downloadBox > p {
+    max-width: 30rem;
+}
+
+@media screen and (max-width: 500px) {
+    .App {
+        font-size: smaller;
+    }
+    .nav-icon {
+        width: 1rem;
+        padding: 1rem;
+        max-width: 100%;
+    }
+    .main-display {
+        color: black;
+        background-color: #fefefe;
+        max-width: 20rem;
+        display: flex;
+        align-items: center;
+        margin: 5rem auto;
+    }
+    .sec-content {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        max-width: 10rem;
+        padding-bottom: 5rem;
+    }
+    .text-title {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 0;
+    }
+    .chat-img {
+        width: 5rem;
+    }
+    .about-us {
+        color: #a6a6a6;
+        letter-spacing: 0.3rem;
+    }
+
+    .read-btn {
+        background-color: #2e9278;
+        letter-spacing: 0.2rem;
+    }
+}
